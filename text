@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="main-content">
+    <header class="section sec1 header active" id="home">
+      <div class="header-content">
+        <div class="left-header">
+          <div class="h-shape"></div>
+          <div class="image">
+            <img src="image.JPG" alt="image" height="750">
+          </div>
+        </div>
+        <div class="right-header">
+          <h1 class="name">
+            Hello, I'm <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-center">
+                  <h2 class="animate-charcter"> Swarup</h2>
+                </div>
+              </div>
+            </div>
+            <h3>Computer Science Engineer.</h3>
+            <br />
+            <br />
+          </h1>
+          <p>
+            <h2>
+              <span>There</span>
+              <span>are</span>
+              <span>no</span>
+              <span>limits</span>
+              <span>to</span>
+              <span>what</span>
+              <span>you</span>
+              <span>can</span>
+              <span>accomplish,</span>
+              <span>except</span>
+              <span>the</span>
+              <span>limits</span>
+              <span>you</span>
+              <span>place</span>
+              <span>on</span>
+              <span>your</span>
+              <span>own</span>
+              <span>thinking.</span>
+            </h2>
+            <br />
+            
+          </p>
+          <!-- <div class="main-btn">
+            <a href="" class="main-btn">
+              <span class="btn-text">Download Resume</span>
+              <span class="btn-icon"><i class="fas fa-download"></i></span>
+            </a>
+          </div> -->
+          <a href="#">
+            <!-- <span>Button</span> -->
+            <span class="btn-text">BIO</span>
+              <span class="btn-icon"><i class="fas fa-download"></i></span>
+            <div class="liquid"></div>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="section sec2 about" id="about">
+        <div class="main-title">
+          <h2>
+            About <span>me</span><span class="bg-text">my status</span>
+          </h2>
+        </div>
+        <div class="about-container">
+          <div class="left-about">
+            <h2>Information About Me</h2>
+            <br></br>
+            <h4><p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt aliquid incidunt temporibus animi, voluptates architecto sint rem illum? Repellendus id consectetur dicta quisquam harum, libero quam illo in. Dolorum, delectus.
+              <br></br>
+            </p>
+          </h4>
+            <a href="#">
+              <!-- <span>Button</span> -->
+              <span class="btn-text">BIO</span>
+                <span class="btn-icon"><i class="fas fa-download"></i></span>
+              <div class="liquid"></div>
+            </a>
+          </div>
+          <div class="right-about">
+            <h1>
+              <span>always be</span>
+              <div class="message">
+                <div class="word1">practice</div>
+                <div class="word2">code</div>
+                <div class="word3">create</div>
+              </div>
+            </h1>
+            
+          </div>
+        </div>
+        <div class="about-stats">
+          <h2 class="stat-title">My Skills</h2>
+          <div class="progress-bars">
+            <div class="prograss-bar">
+              <p class="prog-title">html5</p>
+              <div class="progress-con">
+                <span class="prog-text">
+                  Advanced
+                  <div class="progress">
+                    <span class="html"></span>
+                  </div>
+                </span>
+              </div>
+            </div><br />
+            <div class="prograss-bar">
+              <p class="prog-title">CSS</p>
+              <div class="progress-con">
+                <span class="prog-text">
+                  Moderate
+                  <div class="progress">
+                    <span class="css"></span>
+                  </div>
+                </span>
+              </div>
+            </div><br />
+            <div class="prograss-bar">
+              <p class="prog-title">Javascript</p>
+              <div class="progress-con">
+                <span class="prog-text">
+                  Advanced
+                  <div class="progress">
+                    <span class="javascript"></span>
+                  </div>
+                </span>
+              </div>
+            </div><br />
+            <div class="prograss-bar">
+              <p class="prog-title">C</p>
+              <div class="progress-con">
+                <span class="prog-text">
+                  Advanced
+                  <div class="progress">
+                    <span class="c"></span>
+                  </div>
+                </span>
+              </div>
+            </div><br />
+            <div class="prograss-bar">
+              <p class="prog-title">C++</p>
+              <div class="progress-con">
+                <span class="prog-text">
+                  Moderate
+                  <div class="progress">
+                    <span class="cplus"></span>
+                  </div>
+                </span>
+              </div>
+            </div><br />
+            <div class="prograss-bar">
+              <p class="prog-title">Java</p>
+              <div class="progress-con">
+                <span class="prog-text">
+                  Advanced
+                  <div class="progress">
+                    <span class="java"></span>
+                  </div>
+                </span>
+              </div>
+            </div>
+            <br />
+            <div class="prograss-bar">
+              <p class="prog-title">C#</p>
+              <div class="progress-con">
+                <span class="prog-text">
+                  Advanced
+                  <div class="progress">
+                    <span class="csharp"></span>
+                  </div>
+                </span>
+              </div>
+            </div>
+            <br />
+            <div class="prograss-bar">
+              <p class="prog-title">SQL</p>
+              <div class="progress-con">
+                <span class="prog-text">
+                  Moderate
+                  <div class="progress">
+                    <span class="sql"></span>
+                  </div>
+                </span>
+              </div>
+            </div>
+            <br />
+            <div class="prograss-bar">
+              <p class="prog-title">Android Studio</p>
+              <div class="progress-con">
+                <span class="prog-text">
+                  Beginner
+                  <div class="progress">
+                    <span class="android-studio"></span>
+                  </div>
+                </span>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+        <h2 class="stat-title">Internships</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="tl-icon"><i class="fas fa-briefcase"></i></div>
+            <p class="tl-duration">2021</p>
+            <h5>Cloud Foundations<span>- AWS Academy</span></h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consequatur rerum nobis magnam, commodi consequuntur iure iste impedit! Obcaecati asperiores incidunt accusantium laudantium quo veniam repellat iure sapiente! Voluptatem, ratione.
+            </p>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-icon"><i class="fas fa-briefcase"></i></div>
+            <p class="tl-duration">2022-present</p>
+            <h5> Web Devlopment <span>- AIS Solutions pvt. lmt.</span></h5>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint consequatur rerum nobis magnam, commodi consequuntur iure iste impedit! Obcaecati asperiores incidunt accusantium laudantium quo veniam repellat iure sapiente! Voluptatem, ratione.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section sec3 portfolio" id="portfolio">
+        <div class="main-title">
+          <h2>My <span>Portfolio</span><span class="bg-text">My Works</span></h2>
+        </div>
+        <p class="port-text">
+          Here is some of my work I have done in programming.
+        </p>
+        <br />
+          <div class="portfolios">
+            <div class="portfolio-item">
+              <img src="hand.gif" alt="">
+            
+            <div class="hover-item">
+              <h3>Project Source</h3>
+              <div class="icons">
+                <a href="#" class="iconx">
+                  <i class="fab fa-github"></i>
+                </a>
+                <!-- <a href="#" class="icon">
+                  <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="#" class="icon">
+                  <i class="fab fa-hackerrank"></i>
+                </a> -->
+              </div>
+            </div>
+          </div>
+          <div class="portfolio-item">
+            <video src='fileapp.mp4' autoPlay loop muted ></video>
+          
+          <div class="hover-item">
+            <h3>Project Source</h3>
+            <div class="icons">
+              <a href="#" class="iconx">
+                <i class="fab fa-github"></i>
+              </a>
+              <!-- <a href="#" class="icon">
+                <i class="fab fa-linkedin"></i>
+              </a>
+              <a href="#" class="icon">
+                <i class="fab fa-hackerrank"></i>
+              </a> -->
+            </div>
+          </div>
+        </div>
+        </div>
+        
+      </section>
+      <section class="section sec4 activities" id="activities"></section>
+      <section class="section sec5 contact" id="contact"></section>
+    </main>
+
+    <div class="controlls">
+      <div class="control control-1 active-btn" data-id="home">
+        <i class="fas fa-home"></i>
+      </div>
+      <div class="control control-2" data-id="about">
+        <i class="fas fa-user"></i>
+      </div>
+      <div class="control control-3" data-id="portfolio">
+        <i class="fas fa-briefcase"></i>
+      </div>
+      <div class="control control-4" data-id="activities">
+        <i class="fas fa-newspaper"></i>
+      </div>
+      <div class="control control-5" data-id="contact">
+        <i class="fas fa-envelope-open"></i>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
